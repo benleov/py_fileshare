@@ -6,7 +6,7 @@ This script generates unique HTTP URL's for every file in a given directory, mea
 Requirements
 -------------------------------
 
-To run these files you need mod python enabled on your apache server.
+To run these files you need [mod python](http://modpython.org/) enabled on your [Apache](http://www.apache.org/) server.
 
 Usage: index.py
 -------------------------------
