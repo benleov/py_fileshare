@@ -3,7 +3,7 @@ py_fileshare
 
 This script generates unique HTTP URL's for every file in a given directory, meaning you can give a user the link in the format http://server/files/index.py?file=12386123978624914, which will then provide a download link for a given file. Providing the directory doesnt have browse access, the scripts allow you to give anonymous access to a particular file. 
 
-NOTE: It is NOT very secure; if a user guesses any file in that directory it will allow access. This is NOT designed as a secure way to distribute sensitive data. 
+<b>NOTE: It is NOT very secure; if a user guesses any file in that directory it will allow access. This is NOT designed as a secure way to distribute sensitive data. </b>
 
 Requirements
 -------------------------------
