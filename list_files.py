@@ -41,18 +41,17 @@ def index( ):
 
 	webpage +="</table></html>"
 
-return webpage
+	return webpage
 
 def getMDDirectoryList():
 	filelist = os.walk(ROOT_FILE_DIR)
 
 	md5list = {}
 
-# recurse through all directories
+	# recurse through all directories
 	# calculate root dir name size so only realtive dirs are shown
 
 	rootFileNameLen = len(ROOT_FILE_DIR) + 1
-
 
 	for root, dirs, files in filelist:
 		for name in files:
